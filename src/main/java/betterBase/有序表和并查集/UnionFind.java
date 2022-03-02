@@ -9,6 +9,7 @@ public class UnionFind {
     // 样本进来会包一层，称为元素
     public static class Element<V> {
         public V value;
+        public Object object;
 
         public Element(V value) {
             this.value = value;
